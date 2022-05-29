@@ -1,4 +1,4 @@
-# DEPRECATED - clashofclans.js
+# clashofclans.js
 **API Wrapper for official Clash of Clans API.**
 
 ## Before you Start
