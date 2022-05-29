@@ -20,9 +20,9 @@ If you get the error stated above, follow the instructions below:
 
 ## Example
 ```javascript
-const clash = require("clash")                  //includes the brawlchart module
-const token      = "Your Token"                 //your unique API token
-const client     = new clash.Client(token)      //creates a new brawlchart Client
+const clash       = require("clash")             //includes the brawlchart module
+const token       = "Your Token"                 //your unique API token
+const client      = new clash.Client(token)      //creates a new brawlchart Client
 
 ;(async() => {
   const player     = await client.getPlayer("#PLAYERTAG") //Fetches a player stats as given in the parameter  
